@@ -15,7 +15,7 @@ while True:
                 if website in content:
                     pass
                 else:
-                    file.write(redirect+" "+ website+"\n")
+                    file.write(redirect+" "+ website+"\n")  #Appending in the hosts file
     else:
         print("Fun Hours...")    
     time.sleep(5)
