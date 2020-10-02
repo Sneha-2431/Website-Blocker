@@ -22,7 +22,7 @@ while True:
             file.seek(0)  #Places the pointer at 0 index
             for line in content:
                 if not any(website in line for website in website_list):
-                    file.write(line)  #Places the pointer at the end
+                    file.write(line)  
             file.truncate()        
         print("Fun Hours...")    
     time.sleep(5)
